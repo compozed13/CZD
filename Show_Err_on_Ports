@@ -1,6 +1,6 @@
 import telnetlib
 import time
-3
+
 port = input('Введите порт - ')
 stroka = f'show error ports {port}\n'.encode() 
 telnet = telnetlib.Telnet('192.168.136.43')
